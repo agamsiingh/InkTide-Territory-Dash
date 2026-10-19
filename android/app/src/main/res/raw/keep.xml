@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The notification icon is looked up by name from Dart, so the release
+     resource shrinker must not drop it as "unused". -->
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:keep="@drawable/ic_stat_inktide" />

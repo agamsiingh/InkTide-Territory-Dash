@@ -1,0 +1,4 @@
+analyzer:
+  errors:
+    # The server shares the game's simulation sources through relative imports.
+    avoid_relative_lib_imports: ignore

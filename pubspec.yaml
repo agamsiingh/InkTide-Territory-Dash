@@ -1,0 +1,40 @@
+name: inktide
+description: "InkTide: Territory Dash - paint the arena, capture territory and splat your rivals."
+publish_to: 'none'
+version: 1.6.0+8
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flame: any
+  flame_audio: any
+  shared_preferences: any
+  flutter_local_notifications: ^22.3.2
+  timezone: ^0.11.2
+  games_services: ^5.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  flutter_lints: any
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/audio/
+    - assets/data/
+    - assets/fonts/LICENSE-Fredoka-OFL.txt
+    - assets/fonts/LICENSE-LilitaOne-OFL.txt
+  fonts:
+    - family: Lilita
+      fonts:
+        - asset: assets/fonts/LilitaOne-Regular.ttf
+    - family: Fredoka
+      fonts:
+        - asset: assets/fonts/Fredoka-Variable.ttf

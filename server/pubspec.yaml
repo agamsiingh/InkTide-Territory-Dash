@@ -1,0 +1,6 @@
+name: inktide_server
+description: "Real-time room server for InkTide (Territory Dash). Reuses the game's own simulation code from ../lib so client and server always follow the same rules."
+publish_to: none
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
