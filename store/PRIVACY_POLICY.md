@@ -76,4 +76,4 @@ Questions about this policy: **agamcoder@gmail.com**
 
 ### Hosting note (delete this section before publishing)
 
-To host on GitHub Pages: use the public repo https://github.com/agamsiingh/InkTide-Territory-Dash (or a separate `inktide-privacy` repo), add this file as `index.md`, enable **Settings > Pages > Deploy from branch (main, / root)**. Your URL will be `https://agamsiingh.github.io/InkTide-Territory-Dash/`. Paste that URL into Play Console > App content > Privacy policy. The page must be publicly accessible, not a PDF, and not geo-blocked. The web version is `store/privacy-site/index.html`, which is the page to publish.
+To host on GitHub Pages: use the public repo https://github.com/agamsiingh/InkTide-Territory-Dash (or a separate `inktide-privacy` repo), add this file as `index.md`, enable **Settings > Pages > Deploy from branch (main, / root)**. Your URL will be `https://agamsiingh.github.io/InkTide-Territory-Dash/store/privacy-site/`. Paste that URL into Play Console > App content > Privacy policy. The page must be publicly accessible, not a PDF, and not geo-blocked. The page to publish is `store/privacy-site/index.html`, served at the URL above.
